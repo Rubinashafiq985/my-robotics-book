@@ -1,0 +1,28 @@
+/**
+ * Any CSS included here will be global.
+ */
+
+/* Blue Theme */
+:root {
+  --ifm-color-primary: #1E3A8A;          /* Main deep blue */
+  --ifm-color-primary-dark: #1A337A;     /* Darker */
+  --ifm-color-primary-darker: #162C6A;   /* Even darker */
+  --ifm-color-primary-darkest: #11255A;  /* Darkest */
+  --ifm-color-primary-light: #2A4CB0;    /* Light blue */
+  --ifm-color-primary-lighter: #3C5FD1;  /* Lighter */
+  --ifm-color-primary-lightest: #5378EB; /* Lightest */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(30, 58, 138, 0.1); /* light blue highlight */
+}
+
+/* Dark Mode Blue Theme */
+[data-theme='dark'] {
+  --ifm-color-primary: #3B82F6;          /* Main bright blue */
+  --ifm-color-primary-dark: #1D4ED8;     /* Darker */
+  --ifm-color-primary-darker: #1E40AF;   /* Even darker */
+  --ifm-color-primary-darkest: #1E3A8A;  /* Deep navy */
+  --ifm-color-primary-light: #60A5FA;    /* Light blue */
+  --ifm-color-primary-lighter: #93C5FD;  /* Lighter */
+  --ifm-color-primary-lightest: #BFDBFE; /* Very light */
+  --docusaurus-highlighted-code-line-bg: rgba(59, 130, 246, 0.15); /* soft blue highlight */
+}
